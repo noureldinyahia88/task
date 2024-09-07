@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Assets/Checkmark.svg" type="image/icon type" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>spense</title>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <img style="width: 45px; height: 45px" src="Assets/lo.jpg" alt="" />
+      <button class="hamburger" style="cursor: pointer">
+        <img style="width: 30px; height: 30px" src="Assets/menu.webp" alt="" />
+      </button>
+      <div class="nav-hidden">
+        <ul class="links">
+          <li class="push-right"><a href="#">Home</a></li>
+          <li><a href="#">Sketches</a></li>
+          <li style="border-bottom: 2px solid #d8b454">
+            <a href="#">Decorative Pieces</a>
+          </li>
+          <li><a href="#">Workshops</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section style="padding-top: 6rem; padding-bottom: 6rem; display: grid; place-items: center;">
+        <div class="image-gallery">
+            <div class="thumbnails">
+                <img src="Assets/HnylIxj.jpg" alt="Image 1" onclick="showImage(this)">
+                <img src="Assets/HnyloOu.jpg" alt="Image 2" onclick="showImage(this)">
+                <img src="Assets/HnylTWx.jpg" alt="Image 3" onclick="showImage(this)">
+                <img src="Assets/HnylxDb.jpg" alt="Image 4" onclick="showImage(this)">
+            </div>
+            <div class="main-image">
+                <img id="displayedImage" src="Assets/HnylIxj.jpg" alt="Main Image">
+            </div>
+            <div class="image-details">
+                <h2>Country Gurl</h2>
+                <p><strong>Description:</strong> Eyes have a language of their own</p>
+                <p><strong>Dimensions:</strong> 50x60</p>
+                <p><strong>Background Material:</strong> Wood</p>
+                <p><strong>Color Type:</strong> Oil colors</p>
+                <p>If you are interested to buy or for any inquiries <a href="#">Click Here</a></p>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+      <div class="left">
+        <img style="width: 70px; height: 70px" src="Assets/lo.jpg" alt="" />
+        <p class="p-footer">
+          Family is like branches on a tree, we grow in <br />
+          different directions yet our roots remain as one..<br />
+          From this point, our artistic family decided to <br />
+          Publish our art, fill your walls with art , color your <br />
+          life and spread happiness.
+        </p>
+      </div>
+
+      <div class="center">
+        <ul class="footer-ul">
+          <h4 style="text-align: center">CONTACT INFO</h4>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+            "
+          >
+            <div
+              class="soail-bg"
+              style="
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+              "
+            >
+              <div>
+                <img
+                  style="width: 25px; height: 25px"
+                  src="Assets/facebook.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="soail-bg"
+              style="
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+              "
+            >
+              <div>
+                <img
+                  style="width: 25px; height: 25px"
+                  src="Assets/instagram.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+      <div class="right">
+        <ul class="footer-ul">
+          <h4>Main Links</h4>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sketches</a></li>
+          <li><a href="#">Decorative Pieces</a></li>
+          <li><a href="#">Workshops</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
